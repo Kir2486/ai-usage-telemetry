@@ -13,6 +13,7 @@ This repository contains the AI Usage Telemetry Platform portfolio project and i
 - Keep the project incremental. Verify current official documentation before implementing evolving integrations.
 - Use small commits and codex/* branches for subsequent development. Check working-tree state before changing branches or pulling; preserve existing work.
 - Public README is in English; learning documents may be in Russian.
+- The user requested substantial study materials with detailed explanatory comments. Keep chat lessons short, but repository guides thorough. Provide runnable reference demonstrations and experiments alongside clearly separated unfinished exercises. Explain reasons and limits in comments, not just restate syntax.
 
 ## Portable handoff
 

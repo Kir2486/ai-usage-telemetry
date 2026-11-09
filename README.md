@@ -2,7 +2,7 @@
 
 A portfolio project for collecting LLM usage events, estimating costs, and investigating reliability issues.
 
-Status: learning scaffold. [Lab 01](labs/lab01/README.md) includes an in-memory mock HTTP API and a usage extraction exercise. No deployed services yet.
+Status: learning laboratory. [Start here](labs/README.md) for three commented modules: mock HTTP responses, validated JSONL events, and bounded retries. Runnable reference demos are separate from the unfinished extraction exercise. No deployed services yet.
 
 ## Learning and delivery
 
@@ -10,6 +10,7 @@ Status: learning scaffold. [Lab 01](labs/lab01/README.md) includes an in-memory 
 - [Progress](docs/PROGRESS.md) — verified results and the next step.
 - [Setup and handoff](docs/DEVELOPMENT.md) — another computer or AI assistant.
 - [Assistant instructions](AGENTS.md) and [project context](docs/CONTEXT.md).
+- [Glossary](docs/GLOSSARY.md) — terms used in the labs.
 
 ## Target architecture
 

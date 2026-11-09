@@ -30,12 +30,15 @@ python -m venv .venv
 
 requirements-dev.txt задаёт прямые зависимости, requirements-lock.txt фиксирует проверенные версии вместе с транзитивными зависимостями. Фиксация получена на Windows с Python 3.12; другие ОС отдельно не проверены.
 
-## Команды первой лабораторной
+## Команды лабораторных
 
 ```powershell
 .\.venv\Scripts\python.exe -m labs.lab01.inspect_response
 .\.venv\Scripts\python.exe -m pytest labs/lab01/test_mock_provider.py -q
 .\.venv\Scripts\python.exe -m pytest labs/lab01/test_exercise.py -q
+.\.venv\Scripts\python.exe -m labs.lab02.demo
+.\.venv\Scripts\python.exe -m labs.lab03.retry_demo --scenario rate-limit
+.\.venv\Scripts\python.exe -m pytest labs/lab01/test_mock_provider.py labs/lab02 labs/lab03 -q
 ```
 
 Проверки mock должны проходить. Два теста упражнения ожидаемо падают с NotImplementedError, пока пользователь не реализовал extract_usage. Это учебная заготовка, не готовая production-интеграция. MockTransport работает в памяти и не проверяет реальные сетевые сбои.
