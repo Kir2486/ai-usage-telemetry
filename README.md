@@ -2,12 +2,14 @@
 
 A portfolio project for collecting LLM usage events, estimating costs, and investigating reliability issues.
 
-Status: planning. No application or deployed services yet.
+Status: learning scaffold. [Lab 01](labs/lab01/README.md) includes an in-memory mock HTTP API and a usage extraction exercise. No deployed services yet.
 
 ## Learning and delivery
 
 - [Learning roadmap](docs/LEARNING_PLAN.md) — modules, practical cases and acceptance criteria (Russian).
 - [Progress](docs/PROGRESS.md) — verified results and the next step.
+- [Setup and handoff](docs/DEVELOPMENT.md) — another computer or AI assistant.
+- [Assistant instructions](AGENTS.md) and [project context](docs/CONTEXT.md).
 
 ## Target architecture
 
